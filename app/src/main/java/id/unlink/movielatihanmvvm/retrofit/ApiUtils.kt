@@ -1,0 +1,12 @@
+package id.unlink.movielatihanmvvm.retrofit
+
+import id.unlink.movielatihanmvvm.MainActivity.Companion.BASE_URL
+
+object ApiUtils {
+
+
+    val apiService: ApiService
+        get() {
+            return ApiClient.getClient(BASE_URL).create(ApiService::class.java)
+        }
+}
