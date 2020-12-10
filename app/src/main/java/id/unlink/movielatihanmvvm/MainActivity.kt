@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object{
         val BASE_URL = "https://api.themoviedb.org/"
-        val API_KEY = "eceaa905c234957caf0e25e78774f588"
+        val API_KEY = "replace with you API_KEY"
         val LANG = "en-US" // id-ID for indonesia
         val PAGE = 1 // next button add it
         val IMG_URL_PRE = "https://image.tmdb.org/t/p/w600_and_h900_bestv2/"
